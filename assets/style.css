@@ -3,12 +3,20 @@ body{
   font-style: sans-serif;
 }
 
+.margin_body{
+  width: 80%;
+  margin: auto;
+}
+
 /* utility */
 .mr_20{
   margin-right: 20px;
 }
 .mt_100{
   margin-top: 100px;
+}
+.mt_200{
+  margin-top: 200px;
 }
 .pt_20{
   padding: 20px;
@@ -122,4 +130,5 @@ a{
 .col-offset-lg-5 .col-lg-3{
   text-align: left;
 }
+
 /* main */
