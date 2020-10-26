@@ -7,11 +7,20 @@ body{
 .mr_20{
   margin-right: 20px;
 }
+.mt_100{
+  margin-top: 100px;
+}
+.pt_20{
+  padding: 20px;
+}
 .pr_1{
   padding-right: 1rem;
 }
 .pl_1{
   padding-left: 1rem;
+}
+.text_align_center{
+  text-align: center;
 }
 /* utility */
 
@@ -85,5 +94,32 @@ a{
 .card img{
   max-width: 100%;
   height: 100%;
+}
+#signore{
+  height: 500px;
+  position: relative;
+  background-image: url(img/download.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: -190px;
+}
+.position_relative{
+  position: relative;
+}
+#iphone{
+  width: 300px;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.col-lg-3 h2{
+  font-size: 35px;
+  font-weight: normal;
+  text-align: left;
+  padding-right: 50px;
+}
+.col-offset-lg-5 .col-lg-3{
+  text-align: left;
 }
 /* main */
